@@ -49,3 +49,45 @@ fun handleUpdateTimeMessage() {
                 else -> "Cancer" }
             return horoscopeString
         }
+
+         private fun drawAnimation(canvas: Canvas, bounds: Rect) {
+            val scale = 1.5
+            val dst = Rect(
+                (bounds.left / scale).toInt(),
+                (bounds.top / scale).toInt(),
+                (bounds.right / scale).toInt(),
+                (bounds.bottom / scale).toInt()
+            )
+
+            val frameTime = INTERACTIVE_UPDATE_RATE_MS
+
+            val starsCount = 2
+            val timeTimeSwitch = 20000
+
+
+            val drawable = when (getAnimationCase()) {
+         //Animation of Horoscope 
+                    when(getHoroscope()) {
+                        "Aquarius" -> R.drawable.aquarius
+                        "Aries" -> R.drawable.aries
+                        "Cancer" -> R.drawable.cancer1
+                        "Capricorn" -> R.drawable.capricorn
+                        "Gemini" -> R.drawable.gemini
+                        "Leo" -> R.drawable.leo
+                        "Libra" -> R.drawable.libra
+                        "Pisces" -> R.drawable.pices
+                        "Sagittarius" -> R.drawable.sagitarius
+                        "Scorpio" -> R.drawable.scorpio
+                        "Taurus" -> R.drawable.taurus
+                        "Virgo" -> R.drawable.virgo
+                     else -> R.drawable.rainbow1 }
+                     }
+
+
+            canvas.drawBitmap(
+                BitmapFactory.decodeResource(applicationContext.resources, drawable),
+                bounds,
+                dst,
+                null
+            )
+        
