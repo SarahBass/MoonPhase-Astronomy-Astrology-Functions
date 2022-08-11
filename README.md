@@ -1,0 +1,3 @@
+# GetHoroscopeKotlin
+Simple Horoscope Function 
+
