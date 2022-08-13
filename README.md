@@ -1,6 +1,22 @@
-# GetHoroscopeKotlin
+# Astrology and Astronomy Kotlin Functions
 
-Simple Horoscope and Moon Phase Functions for Astrology Watch 
+____________________________
+
+### getHoroscope()
+
+### getMoonPhase()
+
+### getNewMoon()
+
+### getFullMoon()
+
+### getSolarConjunction()
+
+### getSolarOpposition()
+
+____________________________
+
+Description: Simple Horoscope and Moon Phase Functions in Kotlin (.kt) for Android Wear-OS
 
 Uses Locally Stored Data: 2022-2030
 
@@ -9,7 +25,7 @@ UNDER CONSTRUCTION
 * Disclaimer: Kotlin Functions designed for API 28 for WEAR-OS , Specifically and tested only on Ticwatch E-3.
 Change as needed after 2030. The code goes directly in your .KT file. Data is all locally stored for convienence. In 2030, I will release an update Branch on this to include the next eight years of Moon Phase Data for a 2030 - 2038 Version. 
 
-* ***Large Disclaimer: All Moon data is only accurate for 8 years at a time (This version is for 2022 until 2030)***  
+* ***Large Disclaimer: All data is only accurate for 8 years at a time (This version is for 2022 until 2030)***  
 
 * All Moon Data was compiled from this source: https://www.timeanddate.com/moon/phases
 
@@ -21,9 +37,15 @@ Change as needed after 2030. The code goes directly in your .KT file. Data is al
 
 Moon Phase calculated by the standard ( Moon Age / Moon Cycle Length) = Moon Cycle Percentage % calculation. This will give you a roughly accurate picture of the moon, but not exact. To make it more exact, I have two arrays of 8 years data: New Moon dates and Full Moon dates. Two Functions will spit out Strings to tell you the exact dates which you can display next to the image to ensure better accuracy. The goal was to be accurate enough for the image to make sense to the user.   
 
-<img src="https://github.com/SarahBass/HoroscopeWatchAndroid/blob/main/horoscopewatch.png" width="300" height="300">
+* Solar Conjunction and Solar Opposition Functions are raw data from https://earthsky.org
 
+<p align="center"> 
+<img src="https://github.com/SarahBass/GetHoroscope-and-GetMoonPhase-Kotlin/blob/main/Conjunction%2Bvs.%2BOpposition.jpg" width="400" height="300" >
+</p>
 
+___________________________________________
+
+# Contents
 
 ----------
 ## Functions
@@ -37,9 +59,91 @@ Moon Phase calculated by the standard ( Moon Age / Moon Cycle Length) = Moon Cyc
  
 > getFullMoon() Returns a String for Full Moon Date every month
 
-> getQuarterMoon() Returns a String for Quarter Moon Date every month
+> getsolarConjunction() Returns a String for Planet Conjunction Dates
+ 
+> getsolarOpposition() Returns a String for Planet Opposition Dates 
+
 -------------
 
+
+## MOON PHASES
+
+
+New moon
+
+<img src="https://github.com/SarahBass/HoroscopeWatchAndroid/blob/main/newmoon.png" width="300" height="300">
+
+Waxing Crescent Moon
+
+<img src="https://github.com/SarahBass/HoroscopeWatchAndroid/blob/main/rightcrescent.png" width="300" height="300">
+
+Waxing Half Moon
+
+<img src="https://github.com/SarahBass/HoroscopeWatchAndroid/blob/main/halfmoonright.png" width="300" height="300">
+
+Waxing Gibbous Moon
+
+<img src="https://github.com/SarahBass/HoroscopeWatchAndroid/blob/main/gibright.png" width="300" height="300">
+
+Full Moon
+
+<img src="https://github.com/SarahBass/HoroscopeWatchAndroid/blob/main/fulloon.png" width="300" height="300">
+
+Waning Gibbous Moon
+
+<img src="https://github.com/SarahBass/HoroscopeWatchAndroid/blob/main/gibleft.png" width="300" height="300">
+
+Waxing half Moon
+
+<img src="https://github.com/SarahBass/HoroscopeWatchAndroid/blob/main/halfmoonleft.png" width="300" height="300">
+
+Waxing Crescent Moon
+
+<img src="https://github.com/SarahBass/HoroscopeWatchAndroid/blob/main/rightcrescent.png" width="300" height="300">
+
+New moon
+
+<img src="https://github.com/SarahBass/HoroscopeWatchAndroid/blob/main/newmoon.png" width="300" height="300">
+
+-----------------------
+
+
+## PLANETS
+
+
+MERCURY
+
+<img src="https://github.com/SarahBass/HoroscopeWatchAndroid/blob/main/mercury.png" width="300" height="300">
+
+VENUS
+
+<img src="https://github.com/SarahBass/HoroscopeWatchAndroid/blob/main/venus.png" width="300" height="300">
+
+MARS
+
+<img src="https://github.com/SarahBass/HoroscopeWatchAndroid/blob/main/mars.png" width="300" height="300">
+
+JUPITER
+
+<img src="https://github.com/SarahBass/HoroscopeWatchAndroid/blob/main/jupiter.png" width="300" height="300">
+
+SATURN
+
+<img src="https://github.com/SarahBass/HoroscopeWatchAndroid/blob/main/saturn.png" width="300" height="300">
+
+NEPTUNE
+
+<img src="https://github.com/SarahBass/HoroscopeWatchAndroid/blob/main/neptune.png" width="300" height="300">
+
+URANUS
+
+<img src="https://github.com/SarahBass/HoroscopeWatchAndroid/blob/main/uranus.png" width="300" height="300">
+
+PLUTO
+
+<img src="https://github.com/SarahBass/HoroscopeWatchAndroid/blob/main/pluto1.png" width="300" height="300">
+
+-----------
 
 ## HOROSCOPES
 
@@ -92,46 +196,6 @@ Virgo
 <img src="https://github.com/SarahBass/HoroscopeWatchAndroid/blob/main/virgo.png" width="300" height="300">
 
 -----------
-
-## MOON PHASES
-
-
-New moon
-
-<img src="https://github.com/SarahBass/HoroscopeWatchAndroid/blob/main/newmoon.png" width="300" height="300">
-
-Waxing Crescent Moon
-
-<img src="https://github.com/SarahBass/HoroscopeWatchAndroid/blob/main/rightcrescent.png" width="300" height="300">
-
-Waxing Half Moon
-
-<img src="https://github.com/SarahBass/HoroscopeWatchAndroid/blob/main/halfmoonright.png" width="300" height="300">
-
-Waxing Gibbous Moon
-
-<img src="https://github.com/SarahBass/HoroscopeWatchAndroid/blob/main/gibright.png" width="300" height="300">
-
-Full Moon
-
-<img src="https://github.com/SarahBass/HoroscopeWatchAndroid/blob/main/fulloon.png" width="300" height="300">
-
-Waning Gibbous Moon
-
-<img src="https://github.com/SarahBass/HoroscopeWatchAndroid/blob/main/gibleft.png" width="300" height="300">
-
-Waxing half Moon
-
-<img src="https://github.com/SarahBass/HoroscopeWatchAndroid/blob/main/halfmoonleft.png" width="300" height="300">
-
-Waxing Crescent Moon
-
-<img src="https://github.com/SarahBass/HoroscopeWatchAndroid/blob/main/rightcrescent.png" width="300" height="300">
-
-
-New moon
-
-<img src="https://github.com/SarahBass/HoroscopeWatchAndroid/blob/main/newmoon.png" width="300" height="300">
 
 
 ## Contents:
