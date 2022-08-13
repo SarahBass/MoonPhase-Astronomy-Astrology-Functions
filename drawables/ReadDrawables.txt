@@ -1,0 +1,7 @@
+This is a free folder of drawable PNG clock backgounds you can use in your program to test the Functions. 
+
+It includes:
+
+Moon Phases
+
+Horoscopes
