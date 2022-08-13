@@ -6,24 +6,38 @@ Uses Locally Stored Data: 2022-2030
 
 UNDER CONSTRUCTION
 
-Disclaimer: Kotlin Functions designed for API 28 for WEAR-OS , Specifically and tested only on Ticwatch E-3.
-I do not plan to update this free resource- Change as needed. The code goes directly in your .KT file. No need for 
-headaches and data is all locally stored. In 2030, I will release an update Branch on this to include the next ten years of Data and so on. 
+* Disclaimer: Kotlin Functions designed for API 28 for WEAR-OS , Specifically and tested only on Ticwatch E-3.
+Change as needed after 2030. The code goes directly in your .KT file. Data is all locally stored for convienence. In 2030, I will release an update Branch on this to include the next eight years of Moon Phase Data for a 2030 - 2038 Version. 
 
-Disclaimer: All data is only accurate until 2030.  
+* ***Large Disclaimer: All Moon data is only accurate for 8 years at a time (This version is for 2022 until 2030)***  
+
+* All Moon Data was compiled from this source: https://www.timeanddate.com/moon/phases
+
+<p align="center"> 
+  
+<img src="https://github.com/SarahBass/GetHoroscope-and-GetMoonPhase-Kotlin/blob/main/Screen%20Shot%202022-08-13%20at%203.33.30%20PM.png" width="250" height="300" >
+  <img src="https://github.com/SarahBass/GetHoroscope-and-GetMoonPhase-Kotlin/blob/main/Screen%20Shot%202022-08-13%20at%203.43.12%20PM.png" width="450" height="300" >
+</p>
+
+Moon Phase calculated by the standard ( Moon Age / Moon Cycle Length) = Moon Cycle Percentage % calculation. This will give you a roughly accurate picture of the moon, but not exact. To make it more exact, I have two arrays of 8 years data: New Moon dates and Full Moon dates. Two Functions will spit out Strings to tell you the exact dates which you can display next to the image to ensure better accuracy. The goal was to be accurate enough for the image to make sense to the user.   
 
 <img src="https://github.com/SarahBass/HoroscopeWatchAndroid/blob/main/horoscopewatch.png" width="300" height="300">
 
+
+
 ----------
-Features:
+## Functions
 -----------
-> 
 
-> Holiday Modes 
+> getMoonPhases() returns a String for the moon Phase to display an image on any date.  
 
-> Animated Sprite Character
+> getHoroscope() returns a String for the Horoscope Phase to display an image on any date.  
 
+> getNewMoon() Returns a String for New Moon Date every month
+ 
+> getFullMoon() Returns a String for Full Moon Date every month
 
+> getQuarterMoon() Returns a String for Quarter Moon Date every month
 -------------
 
 
