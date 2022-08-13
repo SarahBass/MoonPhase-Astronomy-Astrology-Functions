@@ -31,7 +31,6 @@ Change as needed after 2030. The code goes directly in your .KT file. Data is al
 
 <p align="center"> 
   
-<img src="https://github.com/SarahBass/GetHoroscope-and-GetMoonPhase-Kotlin/blob/main/Screen%20Shot%202022-08-13%20at%203.33.30%20PM.png" width="250" height="300" >
   <img src="https://github.com/SarahBass/GetHoroscope-and-GetMoonPhase-Kotlin/blob/main/Screen%20Shot%202022-08-13%20at%203.43.12%20PM.png" width="450" height="300" >
 </p>
 
@@ -39,8 +38,9 @@ Moon Phase calculated by the standard ( Moon Age / Moon Cycle Length) = Moon Cyc
 
 * Solar Conjunction and Solar Opposition Functions are raw data from https://earthsky.org
 
+
 <p align="center"> 
-<img src="https://github.com/SarahBass/GetHoroscope-and-GetMoonPhase-Kotlin/blob/main/Conjunction%2Bvs.%2BOpposition.jpg" width="400" height="300" >
+<img src="https://github.com/SarahBass/MoonPhase-Astronomy-Astrology-Functions/blob/main/Screen%20Shot%202022-08-13%20at%204.34.13%20PM.png" width="450" height="300" >
 </p>
 
 ___________________________________________
