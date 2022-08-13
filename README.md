@@ -51,9 +51,9 @@ ___________________________________________
 ## Functions
 -----------
 
-> getMoonPhases() returns a String for the moon Phase to display an image on any date.  
+> getMoonPhases() returns a String for the moon Phase 
 
-> getHoroscope() returns a String for the Horoscope Phase to display an image on any date.  
+> getHoroscope() returns a String for the Horoscope Phase 
 
 > getNewMoon() Returns a String for New Moon Date every month
  
