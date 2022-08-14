@@ -170,3 +170,40 @@ import kotlin.math.abs
         }
         return fullMoonDate
     }
+
+         private fun getnewMoonDate(): String {
+            val d = Date()
+            val sdf0 = SimpleDateFormat("yyyy MMMM")
+            val sdf1 = SimpleDateFormat("d")
+            val yearMonth: String = sdf0.format(d)
+            val dayOfMonth: String = sdf1.format(d)
+            val newMoonDate = when(yearMonth){
+                "2022 January" -> 2
+                "2022 February" -> 1
+                "2022 March" -> 2
+                "2022 April" -> 1
+                "2022 May" -> 30
+                "2022 June" -> 28
+                "2022 July" -> 28
+                "2022 August" -> 27
+                "2022 September" -> 25
+                "2022 October" -> 25
+                "2022 November" -> 23
+                "2022 December" -> 23
+                "2023 January" -> 21
+                "2023 February" -> 19
+                "2023 March" -> 21
+                "2023 April" -> 19
+                "2023 May" -> 19
+                "2023 June" -> 17
+                "2023 July" -> 17
+                "2023 August" -> 16
+                "2023 September" -> 14
+                "2023 October" -> 14
+                "2023 November" -> 13
+                "2023 December" -> 12
+                else -> 1
+            }
+            return newMoonDate.toString()
+        }
+        
