@@ -1,5 +1,6 @@
 # Astrology and Astronomy Kotlin Functions
 
+WORK IN PROGRESS- NOT COMPLETE
 ____________________________
 
 ### getHoroscope()
