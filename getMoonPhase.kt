@@ -1,60 +1,10 @@
-import android.content.BroadcastReceiver
-import android.content.Context
-import android.content.Intent
-import android.content.IntentFilter
-import android.graphics.*
-import android.os.Bundle
-import android.os.Handler
-import android.os.Message
-import android.support.wearable.watchface.CanvasWatchFaceService
-import android.support.wearable.watchface.WatchFaceService
-import android.support.wearable.watchface.WatchFaceStyle
-import android.view.SurfaceHolder
-import android.widget.Toast
-import androidx.palette.graphics.Palette
-import java.lang.ref.WeakReference
-import java.text.SimpleDateFormat
-import java.time.temporal.TemporalField
-import java.util.*
-import kotlin.math.abs
-
-        private fun getMoonPhase(): String {
+    private fun getMoonPhase(): String {
             val d = Date()
-            val sdf0 = SimpleDateFormat("yyyy MMMM")
             val sdf1 = SimpleDateFormat("d")
-            val yearMonth: String = sdf0.format(d)
             val dayOfMonth: String = sdf1.format(d)
             val LUNAR_MONTH = 29.530588853;
-            val newMoonDate = when(yearMonth){
-                "2022 January" -> 2
-                "2022 February" -> 1
-                "2022 March" -> 2
-                "2022 April" -> 1
-                "2022 May" -> 30
-                "2022 June" -> 28
-                "2022 July" -> 28
-                "2022 August" -> 27
-                "2022 September" -> 25
-                "2022 October" -> 25
-                "2022 November" -> 23
-                "2022 December" -> 23
-                "2023 January" -> 21
-                "2023 February" -> 19
-                "2023 March" -> 21
-                "2023 April" -> 19
-                "2023 May" -> 19
-                "2023 June" -> 17
-                "2023 July" -> 17
-                "2023 August" -> 16
-                "2023 September" -> 14
-                "2023 October" -> 14
-                "2023 November" -> 13
-                "2023 December" -> 12
-                else -> 1
-            }
-
-            val newMoondifference = abs((Integer.parseInt(dayOfMonth)) - newMoonDate)
-            val moonPercent: Double = newMoondifference / LUNAR_MONTH
+            val newMoondifference = abs((Integer.parseInt(dayOfMonth)) - (Integer.parseInt(getnewMoonDate())))
+            val moonPercent : Double = newMoondifference / LUNAR_MONTH
             val moonString : String = if(moonPercent < 0.05 ){"New Moon"}
             else if (moonPercent >= .05 && moonPercent < 0.25 ){"Waxing Crescent Moon"}
             else if(moonPercent >=0.25 && moonPercent < 0.35){"Waxing Half Moon"}
@@ -64,23 +14,14 @@ import kotlin.math.abs
             else if(moonPercent >=0.65 && moonPercent < 0.75){"Waning half Moon"}
             else if(moonPercent >=0.75 && moonPercent < 0.95){"Waning Crescent Moon"}
             else {"New Moon"}
-            //0% - 5% new moon | USE : ARRAY EXACT DATE
-            //5% - 25% crescent right
-            //25% - 35% half moon right
-            //35 - 45% gib moon right
-            // 45% - 55%  full moon | USE : ARRAY EXACT DATE
-            // 55% - 65%  gib left moon
-            //65% - 75% half moon left
-            //75% - 90% crescent left
-            //90% - 100% new moon | USE : ARRAY EXACT DATE
             return moonString
         }
+        
+        
         private fun getFullMoonDate(): String {
             val d = Date()
             val sdf0 = SimpleDateFormat("yyyy MMMM")
-            val sdf1 = SimpleDateFormat("d")
             val yearMonth: String = sdf0.format(d)
-            val dayOfMonth: String = sdf1.format(d)
         val fullMoonDate = when(yearMonth){
             "2022 January" -> "17"
             "2022 February" -> "16"
@@ -171,12 +112,10 @@ import kotlin.math.abs
         return fullMoonDate
     }
 
-         private fun getnewMoonDate(): String {
+        private fun getnewMoonDate(): String {
             val d = Date()
             val sdf0 = SimpleDateFormat("yyyy MMMM")
-            val sdf1 = SimpleDateFormat("d")
             val yearMonth: String = sdf0.format(d)
-            val dayOfMonth: String = sdf1.format(d)
             val newMoonDate = when(yearMonth){
                 "2022 January" -> 2
                 "2022 February" -> 1
@@ -206,4 +145,3 @@ import kotlin.math.abs
             }
             return newMoonDate.toString()
         }
-        
