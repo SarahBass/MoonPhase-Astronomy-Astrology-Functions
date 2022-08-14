@@ -7,10 +7,6 @@ ____________________________
 
 ### getMoonPhase()
 
-### getNewMoon()
-
-### getFullMoon()
-
 ### getPlanetEvent()
 
 ____________________________
@@ -50,7 +46,7 @@ ___________________________________________
 ## Functions
 -----------
 
-> getMoonPhases() returns a String for the moon Phase 
+> getMoonPhase() returns a String for the moon Phase 
 
 > getHoroscope() returns a String for the Horoscope Phase 
 
@@ -58,9 +54,9 @@ ___________________________________________
  
 > getFullMoon() Returns a String for Full Moon Date every month
 
-> getsolarConjunction() Returns a String for Planet Conjunction Dates
+> getPlanetEvent() Returns a String for Planet events
  
-> getsolarOpposition() Returns a String for Planet Opposition Dates 
+> getPlanetEventType() Returns a String for type of event 
 
 -------------
 
