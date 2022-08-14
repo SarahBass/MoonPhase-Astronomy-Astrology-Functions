@@ -19,7 +19,8 @@ import java.util.*
 import kotlin.math.abs
 
 
- private fun getPlanetEvent(): String {
+
+        private fun getPlanetEvent(): String {
             val d = Date()
             val sdf0 = SimpleDateFormat("yyyy MMMM")
             val yearMonth: String = sdf0.format(d)
@@ -113,7 +114,7 @@ import kotlin.math.abs
                     "2023 September" -> "Neptune"
                     "2023 October" -> ""
                     "2023 November" -> "Jupiter" //Uranus
-                    "2023 December" -> ""
+                    "2023 December" -> "Winter Solstice Dec 21 2023"
 
                     "2024 January" -> ""
                     "2024 February" -> ""
@@ -171,46 +172,71 @@ import kotlin.math.abs
                     "2023 March" -> "Uranus at solar conjunction"
                     "2023 April" -> ""
                     "2023 May" -> "Mercury Visible at Sunrise"
-                    "2023 June" -> ""
+                    "2023 June" -> "June 21 2023 Summer Solstice"
                     "2023 July" -> ""
                     "2023 August" -> "Uranus begins retrograde motion"
-                    "2023 September" -> ""
+                    "2023 September" -> "Fall Equinox Sep 23 2023"
                     "2023 October" -> ""
                     "2023 November" -> "2023 Uranus opposition – November 13"
-                    "2023 December" -> ""
+                    "2023 December" -> "Winter Solstice Dec 21 2023"
 
                     "2024 January" -> ""
                     "2024 February" -> ""
-                    "2024 March" -> ""
+                    "2024 March" -> "Spring Equinox Mar 19 2024"
                     "2024 April" -> ""
                     "2024 May" -> ""
-                    "2024 June" -> ""
+                    "2024 June" -> "Summer Solstice Jun 20 2024"
                     "2024 July" -> "Mercury visible at Sunset"
                     "2024 August" -> ""
                     "2024 September" -> "Mercury visible at Sunrise"
                     "2024 October" -> ""
                     "2024 November" -> "Mercury visible at sunset"
-                    "2024 December" -> ""
+                    "2024 December" -> "Winter Solstice Dec 21 2024"
 
                     "2025 January" -> "Mars is in Opposition on January 16th"
                     "2025 February" -> ""
-                    "2025 March" -> ""
+                    "2025 March" -> "Spring Equinox Mar 20 2025"
                     "2025 April" -> ""
                     "2025 May" -> ""
-                    "2025 June" -> ""
+                    "2025 June" -> "Summer Solstice Jun 20 2025"
                     "2025 July" -> ""
                     "2025 August" -> ""
-                    "2025 September" -> ""
+                    "2025 September" -> "Fall Equinox September 22 2025"
                     "2025 October" -> ""
                     "2025 November" -> ""
-                    "2025 December" -> ""
+                    "2025 December" -> "Winter Solstice Dec 21 2025"
 
                     else -> "Saturn"
                 }
             return planetOpposition
 
         }
+      /*  private fun getPlanetEventTYPE3(): String {
+            val planetTypes = listOf(
+                "moon",
+                "Moon",
+                "Solstice",
+                "Equinox",
+                "solstice",
+                "equinox",
+                "Mercury",
+                "Venus",
+                "Mars",
+                "Jupiter",
+                "Saturn",
+                "Uranus",
+                "Neptune",
+                "Pluto",
+                "Meteor",
+                "meteor",
 
+            )
+            val planetType = (planetTypes in getPlanetEvent())
+                tolowercase(planetTypes)
+
+            return planetType
+        }
+*/
         private fun getPlanetEventTYPE2(): String {
             val d = Date()
             val sdf0 = SimpleDateFormat("yyyy MMMM")
