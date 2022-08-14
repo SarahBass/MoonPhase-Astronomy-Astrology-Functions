@@ -72,13 +72,13 @@ import kotlin.math.abs
                     "2025 May" -> "May 12, 2025: Full Flower Moon"
                     "2025 June" -> "June 11, 2025: Full Strawberry Moon"
                     "2025 July" -> "Pluto at Opposition :25 Jul 2025"
-                    "2025 August" -> "August 9, 2025: Full Sturgeon Moon"
+                    "2025 August" -> "August 9, 2025: Full Corn Moon"
                     "2025 September" -> "Saturn is in Opposition on September 25"
                     "2025 October" -> "October 6, 2025: Full Harvest Moon"
                     "2025 November" -> "2025 Uranus opposition – November 21"
                     "2025 December" -> "December 13, 14 - Geminids Meteor Shower"
 
-                    else -> "Saturn"
+                    else -> "none"
                 }
             return planetOpposition
 
@@ -117,33 +117,33 @@ import kotlin.math.abs
                     "2023 November" -> "2023 Uranus opposition – November 13"
                     "2023 December" -> "Winter Solstice Dec 21 2023"
 
-                    "2024 January" -> "None"
+                    "2024 January" -> "January 3, 4 - Quadrantids Meteor Shower"
                     "2024 February" -> "None"
                     "2024 March" -> "Spring Equinox Mar 19 2024"
-                    "2024 April" -> "None"
-                    "2024 May" -> "None"
+                    "2024 April" -> "April 8: Total Solar Eclipse parts of USA"
+                    "2024 May" -> "May 6, 7 - Eta Aquarids Meteor Shower"
                     "2024 June" -> "Summer Solstice Jun 20 2024"
                     "2024 July" -> "Mercury visible at Sunset"
-                    "2024 August" -> "None"
+                    "2024 August" -> "August 12, 13 - Perseids Meteor Shower"
                     "2024 September" -> "Mercury visible at Sunrise"
-                    "2024 October" -> "None"
+                    "2024 October" -> "October 21, 22 - Orionids Meteor Shower"
                     "2024 November" -> "Mercury visible at sunset"
                     "2024 December" -> "Winter Solstice Dec 21 2024"
 
                     "2025 January" -> "Mars is in Opposition on January 16th"
-                    "2025 February" -> "None"
+                    "2025 February" -> "February 12 - Full Snow Moon"
                     "2025 March" -> "Spring Equinox Mar 20 2025"
-                    "2025 April" -> "None"
-                    "2025 May" -> "None"
+                    "2025 April" -> "April 22, 23 - Lyrids Meteor Shower"
+                    "2025 May" -> "May 6, 7 - Eta Aquarids Meteor Shower."
                     "2025 June" -> "Summer Solstice Jun 20 2025"
-                    "2025 July" -> "None"
-                    "2025 August" -> "None"
+                    "2025 July" -> "July 28, 29 - Delta Aquarids Meteor Shower"
+                    "2025 August" -> "August 12, 13 - Perseids Meteor Shower"
                     "2025 September" -> "Fall Equinox September 22 2025"
-                    "2025 October" -> "None"
-                    "2025 November" -> "None"
+                    "2025 October" -> "October 21, 22 - Orionids Meteor Shower"
+                    "2025 November" -> "November 4, 5 - Taurids Meteor Shower"
                     "2025 December" -> "Winter Solstice Dec 21 2025"
 
-                    else -> "Saturn"
+                    else -> "none"
                 }
             return planetOpposition
 
