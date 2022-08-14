@@ -61,7 +61,7 @@ import kotlin.math.abs
                     "2024 July" -> "Pluto at Opposition : 23 Jul 2024" //Mercury visible at Sunset
                     "2024 August" -> "Full Sturgeon Moon Aug 19 "
                     "2024 September" -> "Saturn is in Opposition on September 8" //Mercury visible at Sunrise
-                    "2024 October" -> "Full Hunter’s Moon October 17"
+                    "2024 October" -> "Full Harvest Moon October 17"
                     "2024 November" -> "2024 Uranus opposition – November 16" //Mercury visible at sunset
                     "2024 December" -> "Jupiter opposition 2024 – December 7"
 
@@ -113,12 +113,12 @@ import kotlin.math.abs
                     "2023 July" -> "Full Buck Moon July 3rd"
                     "2023 August" -> "Uranus begins retrograde motion"
                     "2023 September" -> "Fall Equinox Sep 23 2023"
-                    "2023 October" -> "Full Hunter’s Moon October 28 , 1:24 pm"
+                    "2023 October" -> "Full Harvest Moon October 28 , 1:24 pm"
                     "2023 November" -> "2023 Uranus opposition – November 13"
                     "2023 December" -> "Winter Solstice Dec 21 2023"
 
                     "2024 January" -> "January 3, 4 - Quadrantids Meteor Shower"
-                    "2024 February" -> "None"
+                    "2024 February" -> "Snow Moon February 24 "
                     "2024 March" -> "Spring Equinox Mar 19 2024"
                     "2024 April" -> "April 8: Total Solar Eclipse parts of USA"
                     "2024 May" -> "May 6, 7 - Eta Aquarids Meteor Shower"
