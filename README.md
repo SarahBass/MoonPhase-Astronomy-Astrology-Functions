@@ -11,9 +11,7 @@ ____________________________
 
 ### getFullMoon()
 
-### getSolarConjunction()
-
-### getSolarOpposition()
+### getPlanetEvent()
 
 ____________________________
 
