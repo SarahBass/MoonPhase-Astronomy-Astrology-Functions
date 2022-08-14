@@ -48,35 +48,35 @@ import kotlin.math.abs
                     "2023 July" -> "Pluto at Opposition : 22 Jul 2023"
                     "2023 August" -> "Saturn is in Opposition on August 27" // Uranus begins retrograde motion
                     "2023 September" -> "September 19, 2023: Neptune at opposition"
-                    "2023 October" -> "None"
+                    "2023 October" -> "October 21, 22 - Orionids Meteor Shower"
                     "2023 November" -> "Jupiter opposition 2023 – November 2" // 2023 Uranus opposition – November 13
-                    "2023 December" -> "None"
+                    "2023 December" -> "December 13, 14 - Geminids Meteor Shower"
 
-                    "2024 January" -> "None"
-                    "2024 February" -> "None"
+                    "2024 January" -> "Full Wolf Moon Jan 25th"
+                    "2024 February" -> "Full Snow Moon Feb 24th"
                     "2024 March" -> "Mercury Visible at Sunset"
-                    "2024 April" -> "None"
+                    "2024 April" -> "Full Pink Moon April 23"
                     "2024 May" -> "Mercury Visible at Sunrise"
                     "2024 June" -> "Venus at superior solar conjunction : 04 Jun 2024"
                     "2024 July" -> "Pluto at Opposition : 23 Jul 2024" //Mercury visible at Sunset
-                    "2024 August" -> "None"
+                    "2024 August" -> "Full Sturgeon Moon Aug 19 "
                     "2024 September" -> "Saturn is in Opposition on September 8" //Mercury visible at Sunrise
-                    "2024 October" -> "None"
+                    "2024 October" -> "Full Hunter’s Moon October 17"
                     "2024 November" -> "2024 Uranus opposition – November 16" //Mercury visible at sunset
                     "2024 December" -> "Jupiter opposition 2024 – December 7"
 
                     "2025 January" -> "Jupiter opposition 2025 – January 10" // "Mars is in Opposition on January 16th"
                     "2025 February" -> "Venus at greatest brightness: 16 Feb 2025"
                     "2025 March" -> "Mercury visible at Sunset"
-                    "2025 April" -> "None"
-                    "2025 May" -> "None"
-                    "2025 June" -> "None"
+                    "2025 April" -> "April 12, 2025: Full Pink Moon"
+                    "2025 May" -> "May 12, 2025: Full Flower Moon"
+                    "2025 June" -> "June 11, 2025: Full Strawberry Moon"
                     "2025 July" -> "Pluto at Opposition :25 Jul 2025"
-                    "2025 August" -> "None"
+                    "2025 August" -> "August 9, 2025: Full Sturgeon Moon"
                     "2025 September" -> "Saturn is in Opposition on September 25"
-                    "2025 October" -> "None"
+                    "2025 October" -> "October 6, 2025: Full Harvest Moon"
                     "2025 November" -> "2025 Uranus opposition – November 21"
-                    "2025 December" -> "None"
+                    "2025 December" -> "December 13, 14 - Geminids Meteor Shower"
 
                     else -> "Saturn"
                 }
