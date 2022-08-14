@@ -1,4 +1,24 @@
-    private fun getMoonPhase(): String {
+import android.content.BroadcastReceiver
+import android.content.Context
+import android.content.Intent
+import android.content.IntentFilter
+import android.graphics.*
+import android.os.Bundle
+import android.os.Handler
+import android.os.Message
+import android.support.wearable.watchface.CanvasWatchFaceService
+import android.support.wearable.watchface.WatchFaceService
+import android.support.wearable.watchface.WatchFaceStyle
+import android.view.SurfaceHolder
+import android.widget.Toast
+import androidx.palette.graphics.Palette
+import java.lang.ref.WeakReference
+import java.text.SimpleDateFormat
+import java.time.temporal.TemporalField
+import java.util.*
+import kotlin.math.abs    
+
+private fun getMoonPhase(): String {
             val d = Date()
             val sdf1 = SimpleDateFormat("d")
             val dayOfMonth: String = sdf1.format(d)
