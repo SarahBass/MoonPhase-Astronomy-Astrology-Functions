@@ -66,7 +66,7 @@ ___________________________________________
 
 New moon
 
-<img src="https://github.com/SarahBass/HoroscopeWatchAndroid/blob/main/newmoon.png" width="300" height="300">
+<img src="https://github.com/SarahBass/HoroscopeWatchAndroid/blob/main/GITHUB_PNG/newmoon.png" width="300" height="300">
 
 Waxing Crescent Moon
 
