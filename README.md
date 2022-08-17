@@ -64,7 +64,7 @@ ___________________________________________
 ## MOON PHASES
 
 
-New moon
+New Moon
 
 <img src="https://github.com/SarahBass/HoroscopeWatchAndroid/blob/main/GITHUB_PNG/newmoon.png" width="300" height="300">
 
@@ -191,6 +191,51 @@ Virgo
 <img src="https://github.com/SarahBass/HoroscopeWatchAndroid/blob/main/GITHUB_PNG/virgo.png" width="300" height="300">
 
 -----------
+
+## MOON Almanac
+
+
+Wolf Moon : January
+
+<img src="https://github.com/SarahBass/MoonPhase-Astronomy-Astrology-Functions/blob/main/drawables/moonAlmanac/moonwolf.png" width="300" height="300">
+
+Snow Moon : February
+
+<img src="https://github.com/SarahBass/MoonPhase-Astronomy-Astrology-Functions/blob/main/drawables/moonAlmanac/moonsnow.png" width="300" height="300">
+
+Worm Moon : March
+
+<img src="https://github.com/SarahBass/MoonPhase-Astronomy-Astrology-Functions/blob/main/drawables/moonAlmanac/moonworm.png" width="300" height="300">
+
+Pink Moon : April & May
+
+<img src="https://github.com/SarahBass/MoonPhase-Astronomy-Astrology-Functions/blob/main/drawables/moonAlmanac/moonpink.png" width="300" height="300">
+
+Strawberry Moon: June
+
+<img src="https://github.com/SarahBass/MoonPhase-Astronomy-Astrology-Functions/blob/main/drawables/moonAlmanac/moonstrawberry.png" width="300" height="300">
+
+Animal Moon (Sturgeon and Buck) : July & August
+
+<img src="https://github.com/SarahBass/MoonPhase-Astronomy-Astrology-Functions/blob/main/drawables/moonAlmanac/moonanimal.png" width="300" height="300">
+
+Corn Moon: September
+
+<img src="https://github.com/SarahBass/MoonPhase-Astronomy-Astrology-Functions/blob/main/drawables/moonAlmanac/mooncorn.png" width="300" height="300">
+
+Harvest Moon: October
+
+<img src="https://github.com/SarahBass/MoonPhase-Astronomy-Astrology-Functions/blob/main/drawables/moonAlmanac/moonharvest.png" width="300" height="300">
+
+Beaver Moon: November
+
+<img src="https://github.com/SarahBass/MoonPhase-Astronomy-Astrology-Functions/blob/main/drawables/moonAlmanac/moonbeaver.png" width="300" height="300">
+
+Cold Moon : December
+
+<img src="https://github.com/SarahBass/MoonPhase-Astronomy-Astrology-Functions/blob/main/drawables/moonAlmanac/mooncold.png" width="300" height="300">
+
+-----------------------
 
 
 ## Contents:
