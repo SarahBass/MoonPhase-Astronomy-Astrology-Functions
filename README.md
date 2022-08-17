@@ -9,6 +9,8 @@ ____________________________
 
 ### getPlanetEvent()
 
+### getMoonAlmanac()
+
 ____________________________
 
 Description: Simple Horoscope and Moon Phase Functions in Kotlin (.kt) for Android Wear-OS
@@ -58,6 +60,8 @@ ___________________________________________
  
 > getPlanetEventType() Returns a String for type of event 
 
+> getMoonAlmanac() Returns a String for Almanac Moon
+
 -------------
 
 
@@ -103,7 +107,11 @@ New moon
 -----------------------
 
 
-## PLANETS
+## SPACE & PLANETS
+
+SUN
+
+<img src="https://github.com/SarahBass/MoonPhase-Astronomy-Astrology-Functions/blob/main/drawables/planets/sun.png" width="300" height="300">
 
 
 MERCURY
@@ -114,9 +122,17 @@ VENUS
 
 <img src="https://github.com/SarahBass/HoroscopeWatchAndroid/blob/main/GITHUB_PNG/venus.png" width="300" height="300">
 
+EARTH
+
+<img src="https://github.com/SarahBass/MoonPhase-Astronomy-Astrology-Functions/blob/main/drawables/planets/earth.png" width="300" height="300">
+
 MARS
 
 <img src="https://github.com/SarahBass/HoroscopeWatchAndroid/blob/main/GITHUB_PNG/mars.png" width="300" height="300">
+
+METEOR
+
+<img src="https://github.com/SarahBass/MoonPhase-Astronomy-Astrology-Functions/blob/main/drawables/planets/shower.png" width="300" height="300">
 
 JUPITER
 
